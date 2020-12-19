@@ -26,3 +26,15 @@ Train VVQG using the below command:
 # VQG Inference and Qualitative Anslysis
 
 You can direclty run the jupyter notebook 'CS269_demo2.ipynb' to infer and perform qualitative analysis
+
+# Sample Generation Output
+
+Please see the data in the folder 'OOD_data'
+
+# Converting Caption Output from VQG to Question using our Rule-based Approach
+
+cd practNLPTools-1.0/
+
+python convert_caption_to_question.py input_captions.txt output_captions.txt
+
+
