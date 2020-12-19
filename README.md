@@ -1,4 +1,5 @@
-# CS269-NLG
+# CS269-NLG (Visual Question Generation)
+
 
 # Preparing Environment:
 
@@ -14,9 +15,14 @@ python -m ipykernel install --user --name=pytorch1.5
 
 # VQG Training using COCO data
 
+We use the transformer implementation from https://github.com/saahiluppal/catr as our VQG model
+
 Train VVQG using the below command:
 
  python main.py
  
  Please make sure that you download COCO dataset into the data folder before launching training. (See https://github.com/arjunakula/catr for more details on Data Preparation)
 
+# VQG Inference and Qualitative Anslysis
+
+You can direclty run the jupyter notebook 'CS269_demo2.ipynb' to infer and perform qualitative analysis
