@@ -35,6 +35,15 @@ Please see the data in the folder 'OOD_data'
 
 `cd practNLPTools-1.0/`
 
+Install practNLP dependencies by running setup.py and then run the below command
+
 `python convert_caption_to_question.py input_captions.txt output_captions.txt`
 
+# VQA Robustness Analysis using OOD split
+
+Install ViLBERT code using my repository here: https://github.com/arjunakula/vilbert_beta
+
+(Please do not use original implementation as it is not designed for contrastive losses and multi-task learning. I have made few changes to easily run multi-task learning)
+
+Replace the task_utils.py with the file in this repository 'train_tasks_MTL_gqa_rel'. And then follow ViLBERT instructions to train and test VQA model.
 
